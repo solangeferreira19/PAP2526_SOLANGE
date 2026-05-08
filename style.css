@@ -1,0 +1,64 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; background-color: #1a1a1a; color: white; }
+/* --- Ecrã Inicial --- */
+.home-bg {
+ background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+ url('assets/images/pap-preview.png');
+ background-size: cover;
+ background-position: center;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+}
+.menu-container { padding: 20px; }
+.hamburger { font-size: 30px; cursor: pointer; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+.hidden { display: none; }
+#nav-menu { background: rgba(255, 255, 255, 0.95); padding: 20px; border-radius: 10px;
+width: 90%; margin: 10px auto; }
+#nav-menu a { display: block; color: black; padding: 10px; text-decoration: none; fontweight: bold; }
+.hero-content {
+ flex-grow: 1;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
+}
+.main-logo { width: 120px; border-radius: 20px; margin-bottom: 20px; }
+/* --- Página PAP --- */
+/* Garantir que o header e a main da página PAP centralizam tudo */
+header { text-align: center; padding: 30px 20px 10px 20px; }
+header .bio { color: rgba(255,255,255,0.7); font-size: 14px; margin-top: 5px; }
+.links-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+}
+.pap-content {
+ text-align: center;
+ max-width: 600px;
+}
+
+.pap-image { width: 90%; max-width: 400px; display: block; margin: 0 auto 20px auto;
+border-radius: 15px; }
+.pap-text { font-size: 16px; line-height: 1.6; max-width: 500px; margin: 0 auto;
+padding: 10px; text-align: justify; }
+/* Botão e Rodapé */
+.btn {
+ display: block;
+ width: 80%;
+ max-width: 300px;
+ background: white;
+ color: black;
+ text-align: center;
+ padding: 15px;
+ margin: 20px auto;
+ border-radius: 12px;
+ text-decoration: none;
+ font-weight: bold;
+}
+footer { text-align: center; color: rgba(255,255,255,0.7); font-size: 10px; padding:
+10px; margin-top: auto; } 
