@@ -1,21 +1,8 @@
 
- "short_name": "MyHub",
- "name": "My Creative Hub - Digital Card",
- "icons": [
- {
- "src": "assets/images/icon-192.png",
- "type": "image/png",
- "sizes": "192x192"
- },
- {
- "src": "assets/images/icon-512.png",
- "type": "image/png",
- "sizes": "512x512"
- }
- ],
- "start_url": "index.html",
- "background_color": "#1a1a1a",
- "display": "standalone",
- "scope": "/",
- "theme_color": "#1a1a1a"
+{
+  "introducao": "A minha PAP aborda o tema da infância vivida em diferentes épocas desde 1970 aos anos 2000, e mostra pontos de vista de 4 pessoas de idades e paises diferentes.",
+  
+  "objetivo": "Compreender como a infância era vivida em diferentes gerações de diferentes países. Analisar as mudanças das brincadeiras, o acesso à educação e à tecnologia. Sensibilizar o público em geral para a existência de diferentes brincadeiras, alargando horizontes através da informação veiculada neste vídeo.",
+
+  "publico": "Este vídeo é para todas as idades."
 }
