@@ -1,32 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>My Creative Hub</title>
- <link rel="stylesheet" href="style.css">
- <link rel="manifest" href="manifest.json">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAP - Infância</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body class="home-bg">
- <div class="menu-container">
- <div class="hamburger" onclick="toggleMenu()">☰</div>
- <nav id="nav-menu" class="hidden">
- <a href="pap.html">A minha PAP</a>
- <a href="https://www.behance.net/teu-utilizador" target="_blank">Meu
-Portfólio</a>
- <a href="mailto:email@exemplo.com">Contacto</a>
- </nav>
- </div>
- <main class="hero-content">
- <img src="assets/images/icon-192.png" alt="Logo" class="main-logo">
- <h1>Lucas Silva</h1>
- <p>Técnico de Multimédia & Designer</p>
- </main>
- <footer>Powered by Solange Ferreira</footer>
- <script>
- function toggleMenu() {
- document.getElementById('nav-menu').classList.toggle('hidden');
- }
- </script>
+<body>
+
+  <div class="container">
+
+    <div class="phone">
+      <div class="topbar">☰</div>
+      <div class="content">
+        <div class="box">
+          <div class="title">Introdução</div>
+          <p id="intro"></p>
+        </div>
+      </div>
+      <div class="bottombar"></div>
+    </div>
+
+    <div class="phone">
+      <div class="topbar">☰</div>
+      <div class="content">
+        <div class="box">
+          <div class="title">Objetivo da minha PAP</div>
+          <p id="objetivo"></p>
+        </div>
+      </div>
+      <div class="bottombar"></div>
+    </div>
+
+    <div class="phone">
+      <div class="topbar">☰</div>
+      <div class="content">
+        <div class="box">
+          <div class="title">Público-alvo</div>
+          <p id="publico"></p>
+        </div>
+      </div>
+      <div class="bottombar"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
