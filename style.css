@@ -1,23 +1,58 @@
-/* Cor de destaque para o botão da PAP */
-.btn-pap {
- background-color: #2ecc71; /* Verde esmeralda */
- color: white !important;
+/* Configurações gerais da página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Cor de fundo escura (moderna) */
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column; /* Alinha elementos um por baixo do outro */
+    align-items: center;    /* Centra horizontalmente */
+    min-height: 100vh;
 }
-/* Estilo para o conteúdo descritivo */
-.pap-content {
- background: rgba(255, 255, 255, 0.1);
- padding: 20px;
- border-radius: 12px;
- margin-bottom: 20px;
- text-align: left;
-}
-.pap-image {
- width: 100%;
- border-radius: 8px;
- margin-bottom: 15px;
- border: 2px solid #2ecc71;
 
-.pap-text {
- font-size: 0.9em;
- line-height: 1.5;
- color: #b
+header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Transforma a foto quadrada em redonda */
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* O segredo do círculo */
+    border: 4px solid #3498db; /* Moldura azul à volta da foto */
+    object-fit: cover; /* Garante que a foto não fica esticada */
+}
+
+.bio {
+    color: #bdc3c7;
+    font-style: italic;
+}
+
+/* Contentor dos botões */
+.links-container {
+    width: 90%;
+    max-width: 400px;
+    margin-top: 40px;
+}
+
+/* Estilo dos botões (links) */
+.btn {
+    display: block;
+    background-color: white;
+    color: #1a1a1a;
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 18px;
+    margin-bottom: 15px;
+    border-radius: 12px;   /* Cantos suaves */
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;      /* Suaviza a animação de toque */
+}
+
+/* Efeito quando o rato passa por cima (ou o dedo toca) */
+.btn:hover {
+    background-color: #3498db;
+    color: white;
+    transform: translateY(-3px); /* Pequen
