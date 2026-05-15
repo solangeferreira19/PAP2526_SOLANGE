@@ -1,8 +1,10 @@
 // Este evento corre quando a App é "instalada" no telemóvel
-fetch("data.json")
-  .then(response => response.json())
-  .then(data => {
-    document.getElementById("intro").textContent = data.introducao;
-    document.getElementById("objetivo").textContent = data.objetivo;
-    document.getElementById("publico").textContent = data.publico;
-  });
+self.addEventListener('install', (e) => {
+  console.log('Service Worker: Instalado');
+});
+
+// Este evento permite que a App funcione mesmo com picos de falta de rede
+self.addEventListener('fetch', (e) => {
+  // Para este projeto base, apenas deixamos o tráfego passar
+  e.respondWith(fetch(e.request));
+});
