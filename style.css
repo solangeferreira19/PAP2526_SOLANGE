@@ -21,7 +21,7 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%; /* O segredo do círculo */
-    border: 4px solid #3498db; /* Moldura azul à volta da foto */
+    border: 4px solid #C17ADE; /* Moldura roxa à volta da foto */
     object-fit: cover; /* Garante que a foto não fica esticada */
 }
 
