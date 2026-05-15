@@ -1,57 +1,18 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
+/* Cor de destaque para o botão da PAP */
+.btn-pap {
+ background-color: #2ecc71; /* Verde esmeralda */
+ color: white !important;
 }
-
-.container {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
+/* Estilo para o conteúdo descritivo */
+.pap-content {
+ background: rgba(255, 255, 255, 0.1);
+ padding: 20px;
+ border-radius: 12px;
+ margin-bottom: 20px;
+ text-align: left;
 }
-
-.phone {
-  width: 250px;
-  height: 500px;
-  background-color: #9fc2c2;
-  border-radius: 30px;
-  border: 5px solid #333;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-
-.topbar {
-  background-color: #f4a77d;
-  padding: 10px;
-  text-align: right;
-  font-weight: bold;
-}
-
-.content {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-
-.box {
-  background-color: #cfe3e3;
-  border-radius: 20px;
-  padding: 15px;
-  text-align: center;
-  font-size: 14px;
-}
-
-.title {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.bottombar {
-  background-color: #f4a77d;
-  height: 40px;
-}
+.pap-image {
+ width: 100%;
+ border-radius: 8px;
+ margin-bottom: 15px;
+ border: 2px solid #2ecc71;
