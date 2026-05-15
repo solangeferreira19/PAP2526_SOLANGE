@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>A minha PAP - My Creative Hub</title>
- <link rel="stylesheet" href="style.css">
- <link rel="manifest" href="manifest.json">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="manifest" href="manifest.json">
+    
+    <meta name="theme-color" content="#1a1a1a">
 </head>
 <body>
- <header>
- <h1>A minha PAP</h1>
- <p class="bio">Projeto de Aptidão Profissional</p>
- </header>
- <main class="links-container">
- <div class="pap-content">
- <img src="assets/images/pap-preview.jpg" alt="Preview da PAP" class="papimage">
- <p class="pap-text">
- Este projeto consiste em... desenvolvido com as ferramentas...
- </p>
- </div>
-<a href="pap.html" class="btn btn-pap">A minha PAP</a>
- <a href="index.html" class="btn">Voltar ao Hub</a>
- </main>
+
+    <header>
+        <img src="assets/images/perfil.jpg" alt="Foto de Perfil" class="avatar">
+        <h1>Solange Ferreira</h1>
+        <p class="bio">Estudante de Multimédia & Designer</p>
+    </header>
+
+    <main class="links-container">
+        <a href="https://www.behance.net/solangemariat" target="_blank" class="btn">Meu Portfólio</a>
+        <a href="https://instagram.com" target="_blank" class="btn">Instagram</a>
+        <a href="https://linkedin.com" target="_blank" class="btn">LinkedIn</a>
+        <a href="mailto:a27557@aecister.pt" class="btn">Contacto</a>
+    </main>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+            .then(() => console.log("App pronta para uso!"));
+        }
+    </script>
 </body>
 </html>
