@@ -29,34 +29,6 @@ header {
     color: #bdc3c7;
     font-style: italic;
 }
-/* Cor de destaque para o botão da PAP */
-.btn-pap {
- background-color: #c17ade; /* Roxo */
- color: white !important;
-}
-/* Estilo para o conteúdo descritivo */
-.pap-content {
- background: rgba(255, 255, 255, 0.1);
- padding: 20px;
- border-radius: 12px;
- margin-bottom: 20px;
- text-align: left;
-}
-.pap-image {
- width: 100%;
- border-radius: 8px;
- margin-bottom: 15px;
- border: 2px solid #2ecc71;
-/* Contentor dos botões */
-.links-container {
-    width: 90%;
-    max-width: 400px;
-    margin-top: 40px;
-}
-
-.pap-text {
- font-size: 0.9em;
- line-height: 1.5;
  
 /* Estilo dos botões (links) */
 .btn {
